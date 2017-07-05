@@ -1,0 +1,644 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Design Patterns and Web Applications</title>
+
+    <meta name="description" content="Improving a Web Application using Design Patterns">
+    <meta name="author" content="Muhammad Arif">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/sky.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+      document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+    </script>
+
+    <!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <!-- Used to fade in a background when a specific slide state is reached -->
+      <div class="state-background"></div>
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+   	<section>
+          <h4>improving a</h4>
+          <h3>web application&nbsp;</h3>
+	  <h4>using</h4><h2>design patterns</h2>
+          <div>
+            <br>
+          </div>
+ 	  <div>
+	    <br>
+	  </div>
+ 	  <h5><div style="text-align: right;">Muhammad Arif</div></h5>
+          <h6><div style="text-align: right;">S7 R</div></h6>
+          <h6><div style="text-align: right;">College of Engineering</div>
+            <div style="text-align: right;">Trivandrum</div></h6>
+        </section>
+        <section>
+          <h2>Web application</h2>
+          <div>
+            <br>
+          </div>
+          <div>A web application is an application that is accessed by users over a network such as the internet or an intranet&nbsp;</div>
+          <div>
+            <br>
+          </div>
+          <div>Web applications are popular due to the ubiquity of web browsers, and the convenience of using a web browser as a client<br>
+          </div>
+        </section>
+        <section>
+          <section>
+            <h2>Design patterns<br>
+            </h2>
+            <div>
+              <br>
+            </div>
+            <p>A <i><b>design pattern</b></i> in architecture and computer science is a formal way of documenting a solution to a design problem in a particular field of expertise</p>
+          </section>
+          <section>
+            <h2>design patterns<br>
+            </h2>
+            <div>
+              <br>
+            </div>
+            <div>
+              <div>Design patterns refer to reusable or repeatable solutions that aim to solve similar design problems during development&nbsp;process</div>
+            </div>
+            <div>
+              <br>
+            </div>
+            <div>
+              <div>Each pattern provides the main solution for particular problem&nbsp;</div>
+            </div>
+          </section>
+          <section>
+            <h2>Design patterns<br>
+            </h2>
+            <div>
+              <br>
+            </div>
+            <div>
+              <div>Normally, developers use either their own desired styles or&nbsp;organization’s framework to develop their applications.&nbsp;</div>
+              <div>
+                <br>
+              </div>
+              <div>This&nbsp;practice is time consuming and difficult for future maintenance.</div>
+            </div>
+          </section>
+          <section>
+            <h2>Why?<br>
+            </h2>
+            <div>
+              <br>
+            </div>
+            <div>
+              <div class="fragment">For a developer, design patterns produces more <b>maintainable</b> design.&nbsp;</div>
+              <div>
+                <br>
+              </div>
+              <div class="fragment">For a user, patterns will enhance the <b>usability</b> of web applications.</div>
+            </div>
+          </section>
+          <section>
+ 	    <div>
+              <br>
+            </div>
+            <h2>focus</h2>
+            <div>
+              <br>
+            </div>
+            <div class="fragment">Architectural patterns<br>
+            </div>
+            <div>
+              <div style="">
+                <br>
+              </div>
+              <div class="fragment">Interaction patterns<br>
+              </div>
+              <div>
+                <br>
+              </div>
+            </div>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>architectural patterns</h2>
+            <div>
+              <br>
+            </div>
+            <div>The architectural patterns address various issues in software engineering, such as computer hardware performance limitations,high availability and minimization of a business risk</div>
+            <div>
+              <br>
+            </div>
+            <div>Some architectural patterns have been implemented within software frameworks.<br>
+            </div>
+          </section>
+          <section>
+            <h2>
+              <br>
+            </h2>
+            <h2>focus<br>
+            </h2>
+            <div>
+              <br>
+            </div>
+            <div>
+              <div>Model-View-Controller (MVC)&nbsp;</div>
+              <div>
+                <br>
+              </div>
+              <div>Presentation-Abstraction-Control (PAC)<br>
+              </div>
+            </div>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>MVC Architecture</h2>
+            <div>
+              <br>
+            </div>
+            <div>
+              <div class="fragment">Three&nbsp;components</div>
+              <div style="">
+                <ol>
+                  <li class="fragment">Model</li>
+                  <li class="fragment">View&nbsp;</li>
+                  <li class="fragment">Controller<br>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h2>
+              <br>
+            </h2>
+            <h2>Model</h2>
+            <div>
+              <br>
+            </div>
+            <div>
+              <div>Model summarizes&nbsp;the core application data and functionality</div>
+            </div>
+          </section>
+          <section>
+            <h2>
+              <br>
+            </h2>
+            <h2>view</h2>
+            <div>
+              <br>
+            </div>
+            <div>
+              <div>View displays&nbsp;information to clients on the screen</div>
+            </div>
+          </section>
+          <section>
+            <h2>
+              <br>
+            </h2>
+            <h2>controller</h2>
+            <div>
+              <br>
+            </div>
+            <div>
+              <div>Controller handles the&nbsp;interaction between user interface and user inputs, and initiates&nbsp;the creation of the application’s new view</div>
+            </div>
+          </section>
+          <section>
+            <h2>architecture</h2>
+            <h2>
+              <img src="03mla.png">
+            </h2>
+            <div>
+              <br>
+            </div>
+            <div>
+              <br>
+            </div>
+          </section>
+          <section>
+	    <br>
+	    <h2>Why?</h2><br>
+	    <div class="fragment">Maintainability</div>
+	    <br>
+	    <div class="fragment">Scalability</div>
+	  </section>
+	  <section>
+	    <br>
+	    <h2>Why not?</h2><br>
+	    <div class="fragment">Experience</div>
+	    <br>
+	    <div class="fragment">Time consumption</div>
+	    <br>
+	    <div class="fragment">Inappropriate for small and medium-size web applications</div>
+	  </section>
+	  <section>
+	    <br>
+	    <h2>In action</h2>
+	    <br>
+	    <div class="fragment">Java EE</div>
+	    <br>
+	    <div class="fragment">Code Igniter PHP Framework</div>
+          </section>
+	</section>
+	<section>
+	  <section>
+	    <h2>PAC Architecture</h2>
+	    <div>
+              <br>
+          </div>
+            <div>
+              <div class="fragment">Three&nbsp;components</div>
+              <div style="">
+		<ol>
+                  <li class="fragment">Presentation</li>
+                  <li class="fragment">Abstraction</li>
+                  <li class="fragment">Control<br>
+                  </li>
+		</ol>
+              </div>
+            </div>
+	  </section>
+	  <section>
+            <h2>
+              <br>
+            </h2>
+            <h2>Presentation</h2>
+            <div>
+              <br>
+            </div>
+            <div>
+              <div>Presentation component formats the visual and audio presentation of data</div>
+            </div>
+          </section>
+          <section>
+            <h2>
+              <br>
+            </h2>
+            <h2>Abstraction</h2>
+            <div>
+              <br>
+            </div>
+            <div>
+              <div>Abstraction component retrieves and processes the data</div>
+            </div>
+          </section>
+          <section>
+            <h2>
+              <br>
+            </h2>
+            <h2>Control</h2>
+            <div>
+              <br>
+            </div>
+            <div>
+              <div>Control component handles things such as the flow of control and communication between the other two components</div>
+            </div>
+          </section>
+	  <section>
+	    <h2>Difference?</h2>
+	    <br>
+	    <div class="fragment">In contrast to MVC, PAC is used as a hierarchical structure of agents.</div>
+	    <br>
+	    <div class="fragment">Each agent consists of a triad of presentation, abstraction and control parts</div>
+	    <br>
+	    <div class="fragment">The agents communicate with each other only through the control part of each triad</div>
+	  </section>
+	  <section>
+            <h2>architecture</h2>
+            <h2>
+              <img src="pac_2.jpg">
+            </h2>
+            <div>
+              <br>
+            </div>
+            <div>
+              <br>
+            </div>
+          </section>
+	  <section>
+	    <h2>Why?</h2>
+	    <br>
+	    <div class="fragment">Within each triad, it completely insulates Presentation and Abstraction.</div>
+	    <br>
+	    <div class="fragment">It is possible to multithread the Presentation and Abstraction which can give the user experience of very short program start time</div>
+	  </section>
+	  <section>
+	    <br>
+	    <h2>Why not?</h2>
+	    <br>
+	    <div class="fragment">Efficiency<br><br>Communication between PAC agents causes overhead</div>
+	  </section>
+	  <section>
+	    <br>
+	    <h2>In action</h2>
+	    <br>
+	    <br>
+	    <div class="fragment">Drupal</div>
+	  </section>
+	</section>
+	<section>
+	  <section>
+	    <h2>Interaction patterns</h2>
+	    <br>
+	    <div>Interaction design patterns are a way to describe solutions to common usability or accessibility problems in a specific context</div>
+	  </section>
+	  <section>
+	    <h2>Focus</h2>
+	    <br>
+	    <div class="fragment">Observer</div>
+	    <br>
+	    <div class="fragment">Strategy</div>
+	    <br>
+	    <div class="fragment">News</div>
+	    <br>
+	    <div class="fragment">Pagination</div>
+	    <br>
+	    <div class="fragment">Set-based Navigation</div>
+	  </section>
+	</section>
+	<section>
+	  <section>
+	    <h2>Observer</h2>
+	    <br>
+	    <div>The observer pattern is a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods</div>
+	  </section>
+	  <section>
+	    <h2>In web</h2>
+	    <br>
+	    <div class="fragment">Used to decouple the navigation process from the perceivable record of the process</div>
+	    <br>
+	    <div class="fragment">Useful to record the visited node and link in a navigation history</div>
+	    <br>
+	    <div class="fragment">Useful when we want to get the history record of the navigated path in easier way</div>
+	  </section>
+	  <section>
+	    <h2>In action</h2>
+	    <br>
+	    <div class="fragment"><img src="observer.png"></div>
+	  </section>
+	  <section>
+	    <h2>In action</h2>
+	    <br>
+	    <div class="fragment"><img src="observer2.png"></div>
+	  </section>
+	</section>
+	<section>
+	  <section>
+	    <h2>Strategy</h2>
+	    <br>
+	    <div>Software design pattern, whereby algorithms can be selected at runtime</div>
+	    <br>
+	    <div>Strategy pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable</div>
+	  </section>
+	  <section>
+	    <h2>In web</h2>
+	    <br>
+	    <div>Strategy lets the algorithm vary independently from clients that use it</div>
+	    <br>
+	    <div>Class that performs validation on incoming data may use a strategy pattern to select a validation algorithm based on the type of data, the source of the data, user choice, and/or other discriminating factors</div>
+	  </section>
+	</section>
+	<section>
+	  <section>
+	    <h2>News</h2>
+	    <br>
+	    <div>News design pattern allows the access of new information and ease the growth of website</div>
+	    <br>
+	    <div>Enables users to be informed with the new released information or latest changes and updates on the website</div>
+	  </section>
+	  <section>
+	   <h2>In action</h2>
+	   <br>
+	   <img src="news.png">
+	  </section>
+	  <section>
+	    <h2>why?</h2>
+	    <br>
+	    <div class="fragment">Web usability will be affected when website grows bigger</div>
+	    <br>
+	    <div class="fragment">This pattern can be used when there are issues of how user will be notified about the recent changes of information while maintenance of website needs to be considered</div>
+	  </section>
+	</section>
+	<section>
+	  <section>
+	    <h2>Pagination</h2>
+	    <br>
+	    <div>Organize the search results in a simpler and more organized way</div>
+	    <br>
+	    <div>Enables users to navigate results using controls such as page number or next, previous, first, and last<div>
+	  </section>
+	  <section>
+	    <h2>In Action</h2>
+	    <br>
+	    <div class="fragment"><img src="page.png"></div>
+	  </section>
+	  <section>
+	    <h2>Why?</h2>
+	    <br>
+	    <div class="fragment">Ease of reading</div>
+	    <br>
+	    <div class="fragment">Suitable when the search results is organised into categories of interest, such as newest first</div>
+	    <br>
+	    <div class="fragment">In term of search efficiency, this pattern is more efficient as it only displays a few results in a page rather than showing all results in one page</div>
+	  </section>
+	</section>
+	<section>
+	  <section>
+	    <h2>Set-based Navigation</h2>
+	    <br>
+	    <div>Organises the information in sets of related information items</div>
+	    <br>
+	    <div>Users can navigate a set a collection in different ways according to the task or scope provided</div>
+	  </section>
+	  <section>
+	    <h2>In Action</h2>
+	    <br>
+	    <div class="fragment"><img src="set.png"></div>
+	  </section>
+	  <section>
+	    <h2>Why?</h2>
+	    <br>
+	    <div class="fragment">Categorize the scopes of data viewing to readers</div>
+	    <br>
+	    <div class="fragment">Search for the relevant information or highlighted events from the sites easily</div>
+	    <br>
+	    <div class="fragment">Improves the efficiency of browsing information</div>
+	  </section>
+	</section>
+	<section>
+	  <section>
+	    <br>
+	    <br>
+	    <br>
+	    <br>
+	    <br>
+	    <h2>Summary</h2>
+	  </section>
+	  <section>
+	    <h2>MVC</h2>
+	    <br>
+	    <ul>
+              <li class="fragment">Suitable in large interactive system that the contents and interfaces are dynamic</li>
+	      <br>
+              <li class="fragment">Provides flexibility in handling requests and functionalities</li>
+	      <br>
+              <li class="fragment">Developers must be experienced as it is difficult to implement</li>
+	    </ul>
+	  </section>
+	  <section>
+	    <h2>PAC</h2>
+	    <br>
+	    <ul>
+              <li class="fragment">Suitable to create an entirely new GUI framework for interactive systems that performs multi-tasking</li>
+	      <br>
+              <li class="fragment">Consists of separate agents that allow the development of data model and user interface to work independently</li>
+	      <br>
+              <li class="fragment">Loss in efficiency because the communication between PAC agents may cause overhead</li>
+	    </ul>
+	  </section>
+	  <section>
+	    <h2>Observer pattern</h2>
+	    <br>
+	    <ul>
+              <li class="fragment">Helps users to get history record of the navigated path with backtrack process</li>
+	      <br>
+              <li class="fragment">Supports backtracking of navigated history record which is user friendly</li>
+	      <br>
+              <li class="fragment">Overhead might occur</li>
+	    </ul>
+	  </section>
+	   <section>
+	    <h2>Strategy pattern</h2>
+	    <br>
+	    <ul>
+              <li class="fragment">Useful when there is a need to establish a relation between two or more objects at different times</li>
+	      <br>
+              <li class="fragment">Reduces memory wastage</li>
+	      <br>
+              <li class="fragment">Improves memory requirement and save time</li>
+	    </ul>
+	   </section>
+	   <section>
+	    <h2>News</h2>
+	    <br>
+	    <ul>
+              <li class="fragment">Rapid changes or updates that need to notify users about the latest information of the website</li>
+	      <br>
+              <li class="fragment">Enables user to take note with the latest changes of the website easily</li>
+	      <br>
+              <li class="fragment">Provides visual feedback to users in faster and immediate way for rapid changing website</li>
+	    </ul>
+	   </section>
+	   <section>
+	     <h2>Pagination</h2>
+	     <br>
+	     <ul>
+               <li class="fragment">Large list of items that is too large to be shown in one page</li>
+	       <br>
+               <li class="fragment"> Organises large list of items into smaller bits that enable users to browser in a more convenient way</li>
+	       <br>
+               <li class="fragment">Many types are available as they depend on the presentation of websites</li>
+	     </ul>
+	   </section>
+	      <section>
+	     <h2>Set-based Navigation</h2>
+	     <br>
+	     <ul>
+               <li class="fragment">Groups data in a meaningful set and provides intra-set navigation facilities</li>
+	       <br>
+               <li class="fragment">Improves user’s navigation to get more relevant information.</li>
+	     </ul>
+	   </section>
+	</section>
+	<section>
+	  <section>
+	    <h2>References</h2>
+	    <br>
+	    <ul>
+	      <li>Improving a Web Application Using Design Patterns - Phek Lan Thung</li>
+		<br>
+		<li>Tutorial: Mastering Design Patterns - Craig Larman</li>
+		<br>
+	  </section>
+	</section>
+	<section>
+	<br><br>
+		<h1>Thank You!</h1>
+	<br><br><br>
+		<div class="fragment">Created using <b>Reveal.js</b> framework<br>https://amarif1.github.io/design-patterns-web-apps</div>
+	</section>
+	</div>
+
+
+
+
+
+
+
+
+      <!-- The navigational controls UI -->
+      <aside class="controls">
+	<a class="left" href="#">&#x25C4;</a>
+	<a class="right" href="#">&#x25BA;</a>
+	<a class="up" href="#">&#x25B2;</a>
+	<a class="down" href="#">&#x25BC;</a>
+      </aside>
+
+      <!-- Presentation progress bar -->
+      <div class="progress"><span></span></div>
+
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+
+    <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+      controls: true,
+      progress: true,
+      history: true,
+
+      theme: Reveal.getQueryHash().theme || 'sky', // available themes are in /css/theme
+      transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/linear(2d)
+
+      // Optional libraries used to extend on reveal.js
+      dependencies: [
+      { src: 'lib/js/highlight.js', async: true, callback: function() { window.hljs.initHighlightingOnLoad(); } },
+      { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: 'lib/js/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'lib/js/data-markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: '/socket.io/socket.io.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } },
+      { src: 'plugin/speakernotes/client.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } },
+      ]
+      });
+
+    </script>
+
+  </body>
+</html>
